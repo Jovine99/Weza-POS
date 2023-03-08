@@ -1,0 +1,165 @@
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+  }
+  
+  .numpad-btn {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .numpad-btn-0 {
+    grid-column: 1 / 4;
+  }
+  
+  .numpad-btn-backspace,
+  .numpad-btn-clear {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  .numpad-btn-backspace:hover,
+  .numpad-btn-clear:hover {
+    background-color: #e60000;
+  }
+  
+  .numpad-btn:active {
+    background-color: #ccc;
+  }
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .product-image {
+    text-align: center;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+  }
+  
+  .product-info {
+    text-align: center;
+  }
+  
+  .product-name {
+    margin-top: 0;
+  }
+  
+  .product-price {
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .cart {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .cart h3 {
+    margin-top: 0;
+  }
+  
+  .cart-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-image {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .cart-item-image img {
+    max-width: 100%;
+  }
+  
+  .cart-item-info {
+    flex: 2;
+  }
+  
+  .cart-item-name {
+    margin-top: 0;
+  }
+  
+  .cart-item-price {
+    font-weight: bold;
+  }
+  
+  .cart-total {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .checkout {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  #nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+   #nav li{
+    float: left;
+  }
+  
+  #nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  /* Change the link color to #111 (black) on hover */
+  /* li a:hover {
+    background-color: #111;
+  } */
