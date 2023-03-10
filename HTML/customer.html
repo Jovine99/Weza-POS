@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>wezapos</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/customer.css">
+  </head>
+  <body>
+    <header>
+      <h1>Customers Dashboard</h1>
+      <div id="search-box">
+        <input type="text" id="search" placeholder="Search...">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+    </header>
+    <div class="container">
+      <div class="sidebar">
+        <ul>
+          <li class="active"><a href="customer.html">New Customer</a></li>
+          <li><a href="views.html">Existing Customers</a></li>
+          <li><a href="customerinfo.html">Customer info</a></li>
+          <li><a href="Discounts.html">Discounts</a></li>
+          <li><a href="loyalty.html">Loyalty program</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="header-section">
+          <h2>New Customer</h2>
+        </div>
+       
+        <label>
+            <input type="radio" name="gender" value="male">
+            Individual
+          </label>
+          
+          <label>
+            <input type="radio" name="gender" value="female">
+            Company
+          </label>
+          <div id="form">
+            <div class="address">
+               <form>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text"  placeholder="street..."><br>
+                    <input type="text" placeholder="street2..."><br>
+                    <input type="text" placeholder="city"><br>
+                    <input type="text"  placeholder="country">
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <label for="Tax-id" id="Tax-id">Tax ID</label>
+                    <input type="text" id="taxid" name="tax-id">
+                  </div>
+               </form>
+            </div>
+            <div class="addcustomer-section">
+                <form>
+                  <div class="form-group">
+                    <label for="customer-name" class="label">Name:</label>
+                    <input type="text" id="customer-name" name="customer-name">
+                  </div><br>
+                  <div class="form-group">
+                    <label for="customer-email" class="label">Email:</label>
+                    <input type="email" id="customer-email" name="customer-email">
+                  </div><br>
+                  <div class="form-group">
+                    <label for="customer-phone">Phone:</label>
+                    <input type="tel" id="customer-phone" name="customer-phone">
+                  </div><br>
+                  <label for="website">Website:</label>
+                <input type="url" id="website" name="website" required>
+                <div class="form-group">
+                    <input type="submit" value="Add Customer">
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" cols="50" placeholder="Send message..."></textarea>
+
+                  </div>
+                 
+                </form>
+              </div>
+          </div>
+          
+       
+      </div>
+    </div>
+    <script src="./JS/customer.js"></script>
+  </body>
+</html>

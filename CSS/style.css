@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    
+    font-family:'Poppins sans-serif';
+    
+   
+}
+
+header{
+ background-color: #573C63; 
+}
+header h1{
+  font-size: 20px;
+}
 .numpad {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2px;
+    margin: 20px 20px;
   }
   
   .numpad-btn {
@@ -64,26 +82,39 @@
   }
   
   .add-to-cart {
-    background-color: #4CAF50;
+    background-color: #573C63;
     border: none;
     color: white;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
+  }
+  #cart{
+    margin: 20px 20px;
+    background-color: #f2f2f2;
   }
   .cart {
     border: 1px solid #ccc;
     margin: 10px;
     padding: 10px;
     width: 300px;
+    margin: 20px 20px;
+  }
+  #orderlist{
+    color: black;
   }
   
   .cart h3 {
     margin-top: 0;
+    
+    
+  }
+  #h5{
+    color: black;
   }
   
   .cart-items {
@@ -126,7 +157,8 @@
   }
   
   .checkout {
-    background-color: #4CAF50;
+    background-color: #573C63 ;
+   
     border: none;
     color: white;
     padding: 10px;
@@ -156,6 +188,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 18px;
   }
   
   

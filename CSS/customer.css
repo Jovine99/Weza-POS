@@ -1,0 +1,170 @@
+/* Style the page */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #link{
+    display: flex;
+    flex-direction: row;
+  }
+  header h1{
+    font-size: 22px;
+  }
+
+  #search-box{
+    float: right;
+    margin-top: 20px;
+  }
+  header #search-box input[type="text"]{
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 200px;
+    margin-left: -100px;
+
+  }
+  
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  .content{
+    
+    margin-left: 100px;
+    padding: 20px;
+  }
+  #form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+    
+  }
+  
+  .address{
+    justify-content: space-evenly;
+    display: block;
+  }
+  .address .form-group input[type="text"]{
+    height: 40px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid #999;
+    outline: none;
+    width: 200%; 
+  }
+   .form-group label{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #Tax-id{
+    margin-top: 20px;
+  }
+  .addcustomer-section{
+    margin-left: 300px;
+    float:right;
+  }
+  .addcustomer-section .form-group input[type="text"]{
+    height: 40px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid #999;
+    outline: none;
+    width: 100% 
+  }
+  .addcustomer-section .form-group input[type="email"]{
+    height: 40px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid #999;
+    outline: none;
+    width: 100%   
+  }
+  .addcustomer-section .form-group input[type="tel"]{
+    height: 40px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid #999;
+    outline: none;
+    width: 100% 
+  }
+  
+   #website{
+    height: 40px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid #999;
+    outline: none;
+    width: 100% 
+  }
+  #message{
+    height: 40px;
+      display: block;
+      /* border: none; */
+      /* border-bottom: 1px solid #999; */
+    outline: none;
+    width: fit-content; 
+    margin-top: 40px;
+    margin-left: -200px;
+  }
+  .form-group input[type="submit"]{
+    background-color:#573C63 ;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    align-self: center;
+    margin-top: 100px;
+    margin-left: -100px;
+  }
+  
+  .sidebar {
+    background-color: #573C63 ;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow-x: hidden;
+    width: 250px;
+    height: 100%;
+  }
+  .sidebar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .sidebar li {
+    margin: 40px
+  }
+  /* .sidebar ul li:active{
+   background-color: #343335 ;
+  }  */
+  ul li:active, ul li:focus {
+    background-color: #343335;
+    height: 30px; 
+    width: 80%;
+    margin-left: -50px;
+    justify-content: center;
+    padding-left: 60px;
+    padding-top: 2px;
+  }
+  

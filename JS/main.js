@@ -6,14 +6,15 @@ for (var i = 0; i < addToCartButtons.length; i++) {
 }
 
 // Function to add product to cart
-function addToCart(itemname) {
+function addToCart(itemname, itemprice) {
 	
 	// TODO: Implement cart functionality
 	const orderlist = document.getElementById('orderlist');
  const orderitem = document.createElement('li');
 
  // add a text to a list
-const orderitemname = document.createTextNode('product 1');
+const orderitemname = document.createTextNode(itemname);
+const orderitemprice = document.createTextNode(itemprice);
  orderitem.appendChild(orderitemname);
  // attach the list tag to (child) orderlist
  orderlist.appendChild(orderitem)
